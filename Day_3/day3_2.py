@@ -20,7 +20,7 @@ def process_engine(engine):
                     find_ratios(engine, num, row, col)
                     num = ""
                 else:
-                        num = ""
+                    num = ""
     for key, value in asterisk_dict.items():
          if len(value) > 1:
               ratio = 1
