@@ -15,7 +15,6 @@ def process_engine(engine):
                 num = str(num) + str(char)
                 if col == len(engine[row])-1: #edge case: no "." after number
                         find_ratios(engine, num, row, col)
-
             if not char.isdigit():
                 if len(num) > 0:
                     find_ratios(engine, num, row, col)
